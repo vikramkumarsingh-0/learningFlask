@@ -1,0 +1,2 @@
+flask support wsgi (web server gateway interface)
+in  templates we create a master templates to utilizes again and again to avoid repetition so we create a base.html

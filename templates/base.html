@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <!-- same as above for others like js -->
+    {% block head %} {% endblock %} <!-- this where code of others pages will go  -->
+</head>
+<body>
+    {% block body %} {% endblock %} <!-- or outline of all pages -->
+</body>
+</html>
